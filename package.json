@@ -1,6 +1,6 @@
 {
     "name": "@ashish-koshy/ng-schematics",
-    "version": "13.0.1",
+    "version": "13.0.2",
     "description": "Custom Angular Schematics",
     "scripts": {
         "build": "tsc -p tsconfig.json",
