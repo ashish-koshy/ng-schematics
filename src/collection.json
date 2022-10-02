@@ -1,0 +1,90 @@
+{
+    "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+    "extends": ["@schematics/angular"],
+    "schematics": {
+        "application": {
+            "aliases": ["a"],
+            "description": "A custom application schematic.",
+            "factory": "./application/index",
+            "schema": "../node_modules/@schematics/angular/application/schema.json"
+        },
+        "class": {
+            "description": "A custom class schematic.",
+            "factory": "./class/index",
+            "schema": "../node_modules/@schematics/angular/class/schema.json"
+        },
+        "component": {
+            "aliases": ["c"],
+            "description": "A custom component schematic.",
+            "factory": "./component/index",
+            "schema": "../node_modules/@schematics/angular/component/schema.json"
+        },
+        "directive": {
+            "aliases": ["d"],
+            "description": "A custom directive schematic.",
+            "factory": "./directive/index",
+            "schema": "../node_modules/@schematics/angular/directive/schema.json"
+        },
+        "enum": {
+            "description": "A custom enum schematic.",
+            "factory": "./enum/index",
+            "schema": "../node_modules/@schematics/angular/enum/schema.json"
+        },
+        "guard": {
+            "aliases": ["g"],
+            "description": "A custom guard schematic.",
+            "factory": "./guard/index",
+            "schema": "../node_modules/@schematics/angular/guard/schema.json"
+        },
+        "interceptor": {
+            "description": "A custom interceptor schematic.",
+            "factory": "./interceptor/index",
+            "schema": "../node_modules/@schematics/angular/interceptor/schema.json"
+        },
+        "interface": {
+            "aliases": ["i"],
+            "description": "A custom interface schematic.",
+            "factory": "./interface/index",
+            "schema": "../node_modules/@schematics/angular/interface/schema.json"
+        },
+        "library": {
+            "aliases": ["l"],
+            "description": "A custom library schematic.",
+            "factory": "./library/index",
+            "schema": "../node_modules/@schematics/angular/library/schema.json"
+        },
+        "module": {
+            "aliases": ["m"],
+            "description": "A custom module schematic.",
+            "factory": "./module/index",
+            "schema": "../node_modules/@schematics/angular/module/schema.json"
+        },
+        "ng-new": {
+            "description": "A blank ng-new schematic.",
+            "factory": "./ng-new/index",
+            "schema": "../node_modules/@schematics/angular/ng-new/schema.json"
+        },
+        "pipe": {
+            "aliases": ["p"],
+            "description": "A custom pipe schematic.",
+            "factory": "./pipe/index",
+            "schema": "../node_modules/@schematics/angular/pipe/schema.json"
+        },
+        "service": {
+            "aliases": ["s"],
+            "description": "A custom service schematic.",
+            "factory": "./service/index",
+            "schema": "../node_modules/@schematics/angular/service/schema.json"
+        },
+        "service-worker": {
+            "description": "A custom service worker schematic.",
+            "factory": "./service-worker/index",
+            "schema": "../node_modules/@schematics/angular/service-worker/schema.json"
+        },
+        "app-shell": {
+            "description": "A custom app shell schematic.",
+            "factory": "./app-shell/index",
+            "schema": "../node_modules/@schematics/angular/app-shell/schema.json"
+        }
+    }
+}
